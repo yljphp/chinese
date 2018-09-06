@@ -1,6 +1,5 @@
 /vendor
-composer
-composer.phar
+/.idea
 composer.lock
 .DS_Store
 ._.DS_Store

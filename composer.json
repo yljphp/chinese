@@ -1,6 +1,6 @@
 {
-    "name": "hanson/simplified-traditional",
-    "description": "获取汉字的拼音, 或者简繁体转换.",
+    "name": "hanson/chinese",
+    "description": "简繁体转换.",
     "keywords": ["pinyin", "hanzi", "jianti", "fanti"],
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hanson\\Simplified\\": "src"
+            "Hanson\\Chinese\\": "src"
         }
     }
 }

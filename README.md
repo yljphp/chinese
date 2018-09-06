@@ -1,29 +1,34 @@
-Hanzi
+Chinese
 =====
 
-获取汉字的拼音, 或者简繁体转换
+简繁体转换
 
 # 安装方法
-命令行下, 执行 composer 命令安装:
+
 ````
-composer require fengqi/hanzi
+composer require hanson/chinese:dev-master
 ````
 
 # 使用示例
 ````
-use fengqi\Hanzi\Hanzi;
+require_once __DIR__.'/../vendor/autoload.php';
 
-$chs = '中国人';
-$cht = '中國人';
+use Hanson\Simplified\Chinese;
 
-// 简繁体获取拼音
-var_dump(Hanzi::pinyin($chs));
-var_dump(Hanzi::pinyin($cht));
+$text = '中國人中国人123abc';
 
-// 简繁体转换
-var_dump(Hanzi::turn($chs));
-var_dump(Hanzi::turn($cht, true));
+// 转为简体
+var_dump(Chinese::simplified($text)); // 中国人中国人123abc
+
+// 转为繁体
+var_dump(Chinese::traditional($text)); // 中國人中國人123abc
+
+// 转为以多字节字符串分隔的数组
+var_dump(Chinese::toArray($text));
+
+// 判断是否全部为中文
+var_dump(Chinese::isChinese($text)); // bool(false)
+
+// 判断是否包含中文
+var_dump(Chinese::hasChinese($text)); // bool(true)
 ````
-
-# 关于部分无法正确转换
-> 可以自行补充 src/ 下 Dict.php 中的字典
