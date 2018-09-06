@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Simplified;
+namespace Hanson\Chinese;
 
 class Chinese
 {
