@@ -10,7 +10,8 @@ composer require hanson/chinese:dev-master
 ````
 
 # 使用示例
-````
+```php
+<?php
 require_once __DIR__.'/../vendor/autoload.php';
 
 use Hanson\Simplified\Chinese;
@@ -31,4 +32,4 @@ var_dump(Chinese::isChinese($text)); // bool(false)
 
 // 判断是否包含中文
 var_dump(Chinese::hasChinese($text)); // bool(true)
-````
+```
