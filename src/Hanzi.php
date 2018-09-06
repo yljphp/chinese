@@ -1,4 +1,6 @@
-<?php namespace fengqi\Hanzi;
+<?php 
+
+namespace Hanson\Simplified;
 
 /**
  * 获取汉字的拼音, 或者简繁体转换.
@@ -7,7 +9,7 @@
  * @link    https://github.com/fengqi/hanzi
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  */
-class Hanzi
+class Simplified
 {
     /**
      * 版本
