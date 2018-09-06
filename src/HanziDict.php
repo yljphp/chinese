@@ -1,4 +1,6 @@
-<?php namespace fengqi\Hanzi;
+<?php 
+
+namespace Hanson\Simplified;
 
 /**
  * 简繁对应表
@@ -7,7 +9,7 @@
  * @link    https://github.com/fengqi/hanzi
  * @license http://www.opensource.org/licenses/mit-license.php MIT
  */
-return array (
+return [
     '啊' => '啊',
     '阿' => '阿',
     '埃' => '埃',
@@ -3759,4 +3761,4 @@ return array (
     '作' => '作',
     '坐' => '坐',
     '座' => '座',
-);
+];
