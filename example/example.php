@@ -3,7 +3,7 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-use Hanson\Chinese\Chinese;
+use Yljphp\Chinese\Chinese;
 
 $text = '中國人中国人123abc';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Chinese;
+namespace Yljphp\Chinese;
 
 class Chinese
 {

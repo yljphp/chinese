@@ -6,7 +6,7 @@ Chinese
 # 安装方法
 
 ````
-composer require hanson/chinese:dev-master
+composer require yljphp/chinese
 ````
 
 # 使用示例
@@ -14,7 +14,7 @@ composer require hanson/chinese:dev-master
 <?php
 require_once __DIR__.'/../vendor/autoload.php';
 
-use Hanson\Simplified\Chinese;
+use Yljphp\Simplified\Chinese;
 
 $text = '中國人中国人123abc';
 

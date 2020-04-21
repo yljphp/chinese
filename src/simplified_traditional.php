@@ -1,11 +1,10 @@
-<?php 
+<?php
 
 /**
  * 简繁对应表
  *
- * @author  fengqi <lyf362345@gmail.com>
- * @link    https://github.com/fengqi/hanzi
- * @license http://www.opensource.org/licenses/mit-license.php MIT
+ * @author yljphp <yljphp@gmail.com>
+ *
  */
 return [
     '啊' => '啊',
